@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //传统函数写法
+        var f1 = function(a){
+            return a
+        }
+        console.log(f1(1))
+        // ES6 的箭头符号，类似于lambda表达式
+        var f2 = a => a
+        console.log(f2(1))
+
+        //演示2
+        var f3 = function(a,b){
+            return a+b
+        }
+        console.log(f3(1,2))
+        // ES6 的箭头符号，类似于lambda表达式，等于号后面是参数，如果多个使用小括号，用逗号分隔，箭头后面是返回值
+        var f4 = (a,b) => a+b
+        console.log(f4(1,5))
+    </script>
+</body>
+</html>
